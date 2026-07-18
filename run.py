@@ -8,7 +8,6 @@ url1=f"https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
 url2=f"https://trends.google.com/trending?geo=IN&hours=48&category=6&&status=active"
 url3=f"https://trends.google.com/trending?geo=IN&hours=48&category=18&&status=active"
 
-client=genai.Client(api_key="AIzaSyBhp-HCYhH8eY9C53kVtfAuhMNodXE5fPY")
 
 
 def fetchingTrends():
